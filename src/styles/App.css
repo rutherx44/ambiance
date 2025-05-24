@@ -1,0 +1,12 @@
+.container_position {
+    border: 1px solid red;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #444444; }
