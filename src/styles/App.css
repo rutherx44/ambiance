@@ -1,12 +1,28 @@
-.container_position {
-    border: 1px solid red;
-}
+
+
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #ffffff;
-    font-size: 1rem;
-    color: #444444; }
+  background-color: #ffffff;
+  font-size: 1rem;
+  color: #444444; 
+}
+
+.container_position {
+  border: 1px solid red;
+}
+
+.hero_header {
+  font-size: clamp(2.5rem, calc(7vw + 1rem), 3.75rem);
+  line-break: 3rem;
+  text-align: center;
+}
+
+.hero_sub_header {
+  font-size: clamp(1rem, calc(7vw + 1rem), 1.125rem);
+  line-break: 3rem;
+  text-align: center;
+}

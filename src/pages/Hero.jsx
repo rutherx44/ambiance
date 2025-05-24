@@ -7,9 +7,13 @@ import { Button } from "../components/Button";
 const Hero = () => {
   return (
     <>
-      <div id="about">
-        <div className="mx-auto">
-          <img className="w-svw sm:hidden" src={phone_base} alt="Hero Banner" />
+      <section id="about">
+        <div className="mx-auto flex justify-center">
+          <img
+            className="w-svw sm:hidden mt-[60px] md:mt-[90px]"
+            src={phone_base}
+            alt="Hero Banner"
+          />
           <img
             className="w-dvw hidden sm:flex lg:hidden"
             src={tablet_base}
@@ -20,19 +24,21 @@ const Hero = () => {
             src={desktop_base}
             alt="Hero Banner"
           />
-          <div className="container_position">
-            <h1 className="">Simplified Complexity</h1>
-            <p className="">
+          <div className="absolute mt-[60px] md:mt-[90px] w-[325px] flex flex-col items-center justify-center gap-10 sm:w-full sm:items-start sm:px-[30px] sm:gap-[40px] xl:px-[150px]">
+            <h1 className="font-alice hero_header mt-[104px] xs:mt-52 sm:mt-[104px] md:mt-[156px] lg:mt-[104px] xl:mt-[156px] 2xl:mt-[208px]">
+              Simplified Complexity
+            </h1>
+            <p className="font-corbel text-base text-center md:text-lg sm:text-left">
               A raw idea is complex but by having collaboration with us, the
               experts. <br />
               it can be refined or simplified.
             </p>
-            <div className="">
+            <div>
               <Button displayText="ABOUT US" />
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

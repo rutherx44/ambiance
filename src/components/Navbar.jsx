@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex fixed z-10 items-center justify-between bg-white shadow-md shadow-slate-200 h-[60px] px-[15px] sm:px-[30px] md:h-[90px]">
+    <nav className="w-full flex fixed z-10 items-center justify-between bg-white shadow-md shadow-slate-200 h-[60px] px-[15px] sm:px-[30px] md:h-[90px] xl:px-[150px]">
       <a href="">
         <img
           className="cursor-pointer w-[130px] h-[30px] md:w-[148px] md:h-[34px] lg:w-[166px] lg:h-10"
@@ -40,7 +40,11 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      <button className="block lg:hidden cursor-pointer" onClick={openMenu}>
+      <button
+        title="Menu"
+        className="lg:hidden cursor-pointer"
+        onClick={openMenu}
+      >
         <Menu className="hover:text-[#F7941D] transition-all w-5 h-4 md:w-7 md:h-[22px]" />
       </button>
 
@@ -50,7 +54,8 @@ const Navbar = () => {
         className="flex fixed lg:hidden items-center justify-center flex-col gap-6 font-normal tracking-wide z-10 bg-white shadow-[0_0_30px] shadow-slate-200 w-3/4 h-full top-0 bottom-0 -right-500 transition-all duration-500"
       >
         <button
-          className="block lg:hidden cursor-pointer absolute top-[22px] right-[15px] sm:right-[30px] md:top-[34px]"
+          title="X"
+          className="lg:hidden cursor-pointer absolute top-[22px] right-[15px] sm:right-[30px] md:top-[34px]"
           onClick={closeMenu}
         >
           <X className="hover:text-[#F7941D] transition-all w-5 h-4 md:w-7 md:h-[22px]" />
