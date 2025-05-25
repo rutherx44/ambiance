@@ -13,10 +13,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex fixed z-10 items-center justify-between bg-white shadow-md shadow-slate-200 h-[60px] px-[15px] sm:px-[30px] md:h-[90px] xl:px-[150px]">
+    <nav className="w-full flex fixed z-10 items-center justify-between bg-white shadow-md shadow-slate-200 h-[3.75rem] px-[1rem] md:h-[5.625rem] sm:px-[5.625rem] xl:px-[9.375rem]">
       <a href="">
         <img
-          className="cursor-pointer w-[130px] h-[30px] md:w-[148px] md:h-[34px] lg:w-[166px] lg:h-10"
+          className="cursor-pointer w-[8.125rem] h-[1.875rem] md:w-[9.25rem] md:h-[2.125rem] lg:w-[10.375rem] lg:h-10"
           src={logo}
           alt="Ambiance Interior Design Studio Logo"
         />
@@ -45,20 +45,20 @@ const Navbar = () => {
         className="lg:hidden cursor-pointer"
         onClick={openMenu}
       >
-        <Menu className="hover:text-[#F7941D] transition-all w-5 h-4 md:w-7 md:h-[22px]" />
+        <Menu className="hover:text-[#F7941D] transition-all w-5 h-4 md:w-7 md:h-[1.375rem]" />
       </button>
 
       {/* Mobile Sidebar */}
       <ul
         ref={sideMenuRef}
-        className="flex fixed lg:hidden items-center justify-center flex-col gap-6 font-normal tracking-wide z-10 bg-white shadow-[0_0_30px] shadow-slate-200 w-3/4 h-full top-0 bottom-0 -right-500 transition-all duration-500"
+        className="flex fixed lg:hidden items-center justify-center flex-col gap-6 font-normal tracking-wide z-10 bg-white shadow-[0_0_1.875rem] shadow-slate-200 w-3/4 h-full top-0 bottom-0 -right-500 transition-all duration-500"
       >
         <button
           title="X"
-          className="lg:hidden cursor-pointer absolute top-[22px] right-[15px] sm:right-[30px] md:top-[34px]"
+          className="lg:hidden cursor-pointer absolute top-[1.375rem] right-4 sm:right-[5.625rem] md:top-[2.125rem]"
           onClick={closeMenu}
         >
-          <X className="hover:text-[#F7941D] transition-all w-5 h-4 md:w-7 md:h-[22px]" />
+          <X className="hover:text-[#F7941D] transition-all w-5 h-4 md:w-7 md:h-[1.375rem]" />
         </button>
         <li className="hover:text-[#F7941D] transition-all cursor-pointer">
           <a href="#about" onClick={closeMenu}>

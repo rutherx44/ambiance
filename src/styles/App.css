@@ -15,14 +15,14 @@ body {
   border: 1px solid red;
 }
 
-.hero_header {
-  font-size: clamp(2.5rem, calc(7vw + 1rem), 3.75rem);
+.header {
+  font-size: clamp(2.5rem, calc(4vw + 1rem), 5rem);
   line-break: 3rem;
-  text-align: center;
+  letter-spacing: 0.09375rem;
 }
 
-.hero_sub_header {
-  font-size: clamp(1rem, calc(7vw + 1rem), 1.125rem);
+.sub_header {
+  font-size: clamp(1rem, calc(1vw + .5rem), 1.25rem);
   line-break: 3rem;
-  text-align: center;
+  letter-spacing: 0.028125rem;
 }
