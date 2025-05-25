@@ -5,6 +5,7 @@
     --breakpoint-3xs: 20rem;
     --breakpoint-2xs: 23.4375rem;
     --breakpoint-xs: 26.5625rem;
+    --breakpoint-3xl: 112.5rem;
 
     /* website font sytle */
     --font-alice: 'Alice', serif;
