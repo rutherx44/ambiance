@@ -5,6 +5,7 @@ import Hero from "./pages/Hero";
 import Mission from "./pages/Mission";
 import Features from "./pages/Features";
 import Project from "./pages/Project";
+import Testimonial from "./pages/Testimonial";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Mission />
       <Features />
       <Project />
+      <Testimonial />
     </>
   );
 }
