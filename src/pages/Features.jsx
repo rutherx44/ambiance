@@ -35,15 +35,14 @@ const Features = () => {
               prevEl: ".button-prev-slide",
             }}
             breakpoints={{
-              520: { slidesPerView: 1 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
+              520: { slidesPerView: 2 },
+              768: { slidesPerView: 3 },
               1280: { slidesPerView: 4 },
             }}
           >
             <SwiperSlide>
               <div className="group transition-all">
-                <div>
+                <div className="flex flex-col justify-center">
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={planning}
@@ -57,7 +56,7 @@ const Features = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group transition-all">
-                <div>
+                <div className="flex flex-col justify-center">
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={layouting}
@@ -71,7 +70,7 @@ const Features = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group transition-all">
-                <div>
+                <div className="flex flex-col justify-center">
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={built}
@@ -85,7 +84,7 @@ const Features = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group transition-all">
-                <div>
+                <div className="flex flex-col justify-center">
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={lighting}
@@ -99,7 +98,7 @@ const Features = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group transition-all">
-                <div>
+                <div className="flex flex-col justify-center">
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={acoustics}
@@ -113,7 +112,7 @@ const Features = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group transition-all">
-                <div>
+                <div className="flex flex-col justify-center">
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={ceiling}
