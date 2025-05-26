@@ -7,6 +7,7 @@ import Features from "./pages/Features";
 import Project from "./pages/Project";
 import Testimonial from "./pages/Testimonial";
 import Team from "./pages/Team";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Project />
       <Testimonial />
       <Team />
+      <Contact />
     </>
   );
 }

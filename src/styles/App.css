@@ -40,3 +40,7 @@ h3 {
   font-size: clamp(1rem, calc(1vw + .5rem), 1.25rem);
   letter-spacing: 0.028125rem;
 }
+
+.form_border {
+  border: .5px solid rgba(68, 68, 68, .5);
+}
