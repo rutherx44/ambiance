@@ -9,10 +9,10 @@ const Team = () => {
         <img src={team} alt="People Planning" />
       </div>
       <div className="w-full order-2 my-10 md:my-0 md:order-1 md:pl-[5.625rem] xl:pl-[9.375rem]">
-        <div className="flex flex-col gap-10 md:gap-5 lg:gap-10 lg:w-[36.25rem] mx-auto">
-          <h1 className="font-alice text-center md:text-left">
+        <div className="flex flex-col gap-10 md:gap-5 lg:gap-10 lg:w-[36.25rem] px-4 mx-auto">
+          <h2 className="font-alice text-center md:text-left">
             Be Part Of Our Team
-          </h1>
+          </h2>
           <p className="font-corbel text-center px-4 sm:px-[5.625rem] md:px-0 md:text-left">
             Explore opportunities to take your career to the next level. Join
             our team of talented individuals and let us support your curiosity

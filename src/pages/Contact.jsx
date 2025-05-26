@@ -5,7 +5,7 @@ import { Button } from "../components/Button";
 
 const Contact = () => {
   return (
-    <section className="h-screen flex items-center mt-24 mx-auto relative">
+    <section className="h-svh md:h-dvh lg:h-lvh flex items-center mx-auto relative">
       <div className="w-full flex flex-col justify-center items-center">
         <img
           className="w-svw flex md:hidden 2xs:h-[32.125rem]"
