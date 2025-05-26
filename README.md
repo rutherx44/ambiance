@@ -79,6 +79,6 @@ For questions or feedback, feel free to reach out:
 
 <div gap='10px'>
   <a href="mailto:ruther.diox04@gmail.com target="_blank"><img src="https://img.shields.io/badge/Gmail-f43f5e?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="www.linkedin.com/in/ruther-dio-b3058b248" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-3b82f6?style=for-the-badge&logo=linkedin&logoColor=#06b6d4"/></a>
+  <a href="www.linkedin.com/in/ruther-dio" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-3b82f6?style=for-the-badge&logo=linkedin&logoColor=#06b6d4"/></a>
   <a href="https://ruther-portfolio.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-84cc16?style=for-the-badge&logo=todoist&logoColor=white"" />
 </div>
