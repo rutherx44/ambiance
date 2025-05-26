@@ -1,5 +1,5 @@
 import React from "react";
-import phone_base from "../assets/phone_base.png";
+import mobile_base from "../assets/mobile_base.png";
 import tablet_base from "../assets/tablet_base.png";
 import desktop_base from "../assets/desktop_base.png";
 import { Button } from "../components/Button";
@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="mx-auto flex justify-center">
           <img
             className="w-svw sm:hidden mt-[3.75rem] md:mt-[5.625rem]"
-            src={phone_base}
+            src={mobile_base}
             alt="Hero Banner"
           />
           <img

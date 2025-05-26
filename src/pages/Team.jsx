@@ -5,10 +5,10 @@ import { Button } from "../components/Button";
 const Team = () => {
   return (
     <section className="w-full mt-24 flex flex-col md:flex-row justify-center items-center">
-      <div className="w-full order-2 flex justify-center sm:pr-[5.625rem] xl:pr-[9.375rem]">
+      <div className="w-full order-1 flex justify-center sm:order-2 md:pr-[5.625rem] xl:pr-[9.375rem]">
         <img src={team} alt="People Planning" />
       </div>
-      <div className="w-full mb-10 md:mb-0 sm:pl-[5.625rem] xl:pl-[9.375rem]">
+      <div className="w-full order-2 my-10 md:my-0 md:order-1 md:pl-[5.625rem] xl:pl-[9.375rem]">
         <div className="flex flex-col gap-10 md:gap-5 lg:gap-10 lg:w-[36.25rem] mx-auto">
           <h1 className="font-alice text-center md:text-left">
             Be Part Of Our Team
