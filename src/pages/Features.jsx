@@ -19,14 +19,14 @@ const Features = () => {
         <h2 id="whatwedo" className="font-alice">
           What We Do
         </h2>
-        <p className="font-corbel sub_header px-[1rem] sm:px-[5.625rem] xl:px-[9.375rem] lg:w-[70rem]">
+        <p className="font-corbel sub_header px-4 sm:px-[5.625rem] xl:px-[9.375rem] xl:w-[70rem]">
           We strive to push our imagination for a fresh look injected with
           design savvy and an eye for detail in the modern and eclectic styles
           we predominantly design in.
         </p>
       </section>
-      <section className="mt-12">
-        <div className="flex flex-row font-alice">
+      <section className="mt-12 sm:px-[5.625rem] xl:px-[9.375rem]">
+        <div className="font-alice">
           <Swiper
             slidesPerView={1}
             modules={[Navigation]}
@@ -36,92 +36,92 @@ const Features = () => {
             }}
             breakpoints={{
               520: { slidesPerView: 1 },
-              640: { slidesPerView: 2 },
-              768: { slidesPerView: 3 },
-              1024: { slidesPerView: 4 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+              1280: { slidesPerView: 4 },
             }}
           >
             <SwiperSlide>
-              <div className="flex flex-col group transition-all">
-                <div className="flex flex-col justify-center">
+              <div className="group transition-all">
+                <div>
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={planning}
                     alt="Space Planning"
                   />
-                  <h4 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all">
+                  <h3 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all pl-3">
                     Space Planning
-                  </h4>
+                  </h3>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col items-center group transition-all">
-                <div className="flex flex-col justify-center">
+              <div className="group transition-all">
+                <div>
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={layouting}
                     alt="Layout"
                   />
-                  <h4 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all">
+                  <h3 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all pl-3">
                     Layouting
-                  </h4>
+                  </h3>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col items-center group transition-all">
-                <div className="flex flex-col justify-center">
+              <div className="group transition-all">
+                <div>
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={built}
                     alt="Built-In/Custom Furniture"
                   />
-                  <h4 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all">
+                  <h3 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all pl-3 truncate">
                     Built-In / Custom Furniture
-                  </h4>
+                  </h3>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col items-center group transition-all">
-                <div className="flex flex-col justify-center">
+              <div className="group transition-all">
+                <div>
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={lighting}
                     alt="Lightning"
                   />
-                  <h4 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all">
+                  <h3 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all pl-3">
                     Lightning
-                  </h4>
+                  </h3>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col items-center group transition-all">
-                <div className="flex flex-col justify-center">
+              <div className="group transition-all">
+                <div>
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={acoustics}
                     alt="Acoustics"
                   />
-                  <h4 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all">
+                  <h3 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all pl-3">
                     Acoustics
-                  </h4>
+                  </h3>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col items-center group transition-all">
-                <div className="flex flex-col justify-center">
+              <div className="group transition-all">
+                <div>
                   <img
                     className="group-hover:-translate-y-1 transition-all"
                     src={ceiling}
                     alt="Ceilling Designs"
                   />
-                  <h4 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all">
+                  <h3 className="group-hover:-translate-y-1 group-hover:text-[#F7941D] transition-all pl-3">
                     Ceilling Designs
-                  </h4>
+                  </h3>
                 </div>
               </div>
             </SwiperSlide>
