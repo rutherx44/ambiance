@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 const Footer = () => {
   return (
     <>
-      <section className="mt-24 mx-auto flex flex-col items-center gap-16 xs:mt-28 md:mt-20 xl:mt-24">
+      <section className="mt-[7.8125rem] mx-auto flex flex-col items-center gap-16 xs:mt-28 md:mt-20 xl:mt-[7.8125rem]">
         <div>
           <a href="#home">
             <img

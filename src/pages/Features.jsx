@@ -15,7 +15,7 @@ import "swiper/css/navigation";
 const Features = () => {
   return (
     <>
-      <section className="w-full flex flex-col items-center mt-24 text-center mx-auto gap-10">
+      <section className="w-full flex flex-col items-center mt-[7.8125rem] text-center mx-auto gap-10">
         <h2 id="whatwedo" className="font-alice">
           What We Do
         </h2>

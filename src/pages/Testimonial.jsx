@@ -7,7 +7,7 @@ import { MoveLeft, MoveRight } from "lucide-react";
 
 const Testimonial = () => {
   return (
-    <section className="mt-24 relative">
+    <section className="mt-[7.8125rem] relative">
       <div className="w-full">
         <img
           className="w-svw sm:hidden"
