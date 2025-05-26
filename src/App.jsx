@@ -6,6 +6,7 @@ import Mission from "./pages/Mission";
 import Features from "./pages/Features";
 import Project from "./pages/Project";
 import Testimonial from "./pages/Testimonial";
+import Team from "./pages/Team";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <Project />
       <Testimonial />
+      <Team />
     </>
   );
 }

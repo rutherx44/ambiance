@@ -130,7 +130,7 @@ const Features = () => {
         <div className="flex justify-center gap-12 mt-8">
           <div className="button-prev-slide">
             <MoveLeft
-              className="hover:text-[#F7941D] transition-all w-8 h-8  md:w-[2.625rem] md:h-9"
+              className="hover:text-[#F7941D] transition-all w-8 h-8 md:w-[2.625rem] md:h-9"
               sx={{ fontSize: 30 }}
             />
           </div>
