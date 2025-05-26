@@ -24,8 +24,8 @@ const Hero = () => {
             src={desktop_base}
             alt="Hero Banner"
           />
-          <div className="absolute h-full w-[20.3125rem] flex flex-col items-center justify-center gap-10 sm:w-full sm:items-start sm:px-[5.625rem] sm:gap-[2.5rem] xl:px-[9.375rem] container_position">
-            <h1 className="font-alice header text-center mt-[6.5rem] xs:mt-52 sm:text-left sm:mt-[6.5rem] sm:w-full md:mt-[9.75rem] lg:mt-[3.25rem] xl:mt-[9.75rem] 2xl:mt-[15.625rem] 3xl:mt-[21.875rem]">
+          <div className="absolute h-full w-[20.3125rem] flex flex-col items-center justify-center gap-10 sm:w-full sm:items-start sm:px-[5.625rem] xl:px-[9.375rem]">
+            <h1 className="font-alice text-center sm:text-left sm:w-full">
               Simplified Complexity
             </h1>
             <p className="font-corbel sub_header text-center sm:text-left md:text-lg">
