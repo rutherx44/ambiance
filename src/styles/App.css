@@ -11,18 +11,24 @@ body {
   color: #444444; 
 }
 
-.container_position {
-  border: 1px solid red;
+h1 {
+  font-size: clamp(2.5rem, calc(4vw + 1rem), 3.75rem);
+  line-height: 3rem;
+  letter-spacing: 0.09375rem;
 }
 
-.header {
-  font-size: clamp(2.5rem, calc(4vw + 1rem), 5rem);
-  line-break: 3rem;
+h2 {
+  font-size: clamp(2.375rem, calc(1vw + .2rem), 2.5rem);
+  letter-spacing: 0.09375rem;
+}
+
+h3 {
+  font-size: clamp(1.25rem, calc(1vw + .2rem), 2rem);
+  line-height: 2.25rem;
   letter-spacing: 0.09375rem;
 }
 
 .sub_header {
   font-size: clamp(1rem, calc(1vw + .5rem), 1.25rem);
-  line-break: 3rem;
   letter-spacing: 0.028125rem;
 }
