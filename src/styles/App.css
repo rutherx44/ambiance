@@ -11,14 +11,6 @@ body {
   color: #444444; 
 }
 
-.container_red {
-  border: 1px solid red;
-}
-
-.container_blue {
-  border: 1px solid blue;
-}
-
 h1 {
   font-size: clamp(2.5rem, calc(4vw + 1rem), 3.75rem);
   line-height: 3rem;
@@ -43,4 +35,26 @@ h3 {
 
 .form_border {
   border: .5px solid rgba(68, 68, 68, .5);
+}
+
+/* Custom Scrollbars Style */
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F7941D;
+  border-radius: 0.3rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f9ae53;
 }

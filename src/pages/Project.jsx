@@ -4,8 +4,11 @@ import project from "../assets/project.png";
 
 const Project = () => {
   return (
-    <section className="w-full mt-[7.8125rem] flex flex-col md:flex-row justify-center items-center">
-      <div id="project" className="w-full">
+    <section
+      id="project"
+      className="w-full mt-[7.8125rem] flex flex-col md:flex-row justify-center items-center"
+    >
+      <div className="w-full">
         <img src={project} alt="Furniture" />
       </div>
       <div className="w-full mt-10 md:mt-0">

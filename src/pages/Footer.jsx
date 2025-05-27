@@ -25,7 +25,7 @@ const Footer = () => {
             <a href="#project">PROJECTS</a>
           </li>
           <li className="hover:text-[#F7941D] transition-all cursor-pointer">
-            <a href="#career">CAREERS</a>
+            <a href="#team">CAREERS</a>
           </li>
           <li className="hover:text-[#F7941D] transition-all cursor-pointer">
             <a href="#contact">CONTACT US</a>

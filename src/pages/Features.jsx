@@ -15,10 +15,11 @@ import "swiper/css/navigation";
 const Features = () => {
   return (
     <>
-      <section className="w-full flex flex-col items-center mt-[7.8125rem] text-center mx-auto gap-10">
-        <h2 id="whatwedo" className="font-alice">
-          What We Do
-        </h2>
+      <section
+        id="whatwedo"
+        className="w-full flex flex-col items-center mt-[7.8125rem] text-center mx-auto gap-10"
+      >
+        <h2 className="font-alice">What We Do</h2>
         <p className="font-corbel sub_header px-4 sm:px-[5.625rem] xl:px-[9.375rem] xl:w-[70rem]">
           We strive to push our imagination for a fresh look injected with
           design savvy and an eye for detail in the modern and eclectic styles

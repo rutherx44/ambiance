@@ -13,7 +13,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex fixed z-10 items-center justify-between bg-white shadow-md shadow-slate-200 h-[3.75rem] px-[1rem] md:h-[5.625rem] sm:px-[5.625rem] xl:px-[9.375rem]">
+    <nav
+      id="home"
+      className="w-full flex fixed z-10 items-center justify-between bg-white shadow-md shadow-slate-200 h-[3.75rem] px-[1rem] md:h-[5.625rem] sm:px-[5.625rem] xl:px-[9.375rem]"
+    >
       <a href="#home">
         <img
           className="cursor-pointer w-[8.125rem] h-[1.875rem] md:w-[9.25rem] md:h-[2.125rem] lg:w-[10.375rem] lg:h-10"
@@ -32,7 +35,7 @@ const Navbar = () => {
           <a href="#project">PROJECT</a>
         </li>
         <li className="hover:text-[#F7941D] transition-all cursor-pointer">
-          <a href="#career">CAREERS</a>
+          <a href="#team">CAREERS</a>
         </li>
         <li>
           <a href="#contact">
@@ -76,7 +79,7 @@ const Navbar = () => {
           </a>
         </li>
         <li className="hover:text-[#F7941D] transition-all cursor-pointer">
-          <a href="#carrers" onClick={closeMenu}>
+          <a href="#team" onClick={closeMenu}>
             CAREERS
           </a>
         </li>

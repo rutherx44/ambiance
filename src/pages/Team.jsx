@@ -4,7 +4,10 @@ import { Button } from "../components/Button";
 
 const Team = () => {
   return (
-    <section className="w-full mt-[7.8125rem] flex flex-col md:flex-row justify-center items-center">
+    <section
+      id="team"
+      className="w-full mt-[7.8125rem] flex flex-col md:flex-row justify-center items-center"
+    >
       <div className="w-full order-1 flex justify-center sm:order-2 md:pr-[5.625rem] xl:pr-[9.375rem]">
         <img src={team} alt="People Planning" />
       </div>

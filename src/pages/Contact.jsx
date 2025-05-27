@@ -5,7 +5,10 @@ import { Button } from "../components/Button";
 
 const Contact = () => {
   return (
-    <section className="h-svh md:h-dvh lg:h-lvh flex items-center mx-auto relative">
+    <section
+      id="contact"
+      className="h-svh md:h-dvh lg:h-lvh flex items-center mx-auto relative"
+    >
       <div className="w-full flex flex-col justify-center items-center">
         <img
           className="w-svw flex md:hidden 2xs:h-[32.125rem]"
@@ -18,10 +21,7 @@ const Contact = () => {
           alt="Contact Banner"
         />
         <div className="absolute w-full flex justify-center px-4 sm:px-[5.625rem] xl:px-[9.375rem]">
-          <div
-            id="career"
-            className="flex flex-col items-center py-10 gap-10 rounded-md bg-white text-center shadow-lg shadow-slate-200 px-4 md:w-[54.625rem]"
-          >
+          <div className="flex flex-col items-center py-10 gap-10 rounded-md bg-white text-center shadow-lg shadow-slate-200 px-4 md:w-[54.625rem]">
             <h2 className="font-alice">
               Your Space Should Reflect
               <br />
