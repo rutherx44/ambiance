@@ -58,3 +58,15 @@ h3 {
 ::-webkit-scrollbar-thumb:hover {
   background: #f9ae53;
 }
+
+@media (min-width: 640px) {
+  .swiper-wrapper { 
+      padding-left: 5.625rem;
+    }
+}
+
+@media (min-width: 1280px) {
+  .swiper-wrapper {
+      padding-left: 9.375rem;
+    }
+}

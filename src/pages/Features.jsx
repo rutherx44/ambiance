@@ -26,19 +26,21 @@ const Features = () => {
           we predominantly design in.
         </p>
       </section>
-      <section className="mt-12 sm:px-[5.625rem] xl:px-[9.375rem]">
-        <div className="font-alice">
+      <section className="mt-12 red">
+        <div className="font-alice blue">
           <Swiper
             slidesPerView={1}
+            loop={true}
+            spaceBetween={20}
             modules={[Navigation]}
             navigation={{
               nextEl: ".button-next-slide",
               prevEl: ".button-prev-slide",
             }}
             breakpoints={{
-              520: { slidesPerView: 2 },
-              768: { slidesPerView: 3 },
-              1280: { slidesPerView: 4 },
+              640: { slidesPerView: 2, spaceBetween: 30 },
+              768: { slidesPerView: 3, spaceBetween: 40 },
+              1280: { slidesPerView: 4, spaceBetween: 50 },
             }}
           >
             <SwiperSlide>
