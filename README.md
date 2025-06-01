@@ -19,7 +19,7 @@
 
   <i>A raw idea is complex but by having collaboration with us, the experts. it can be refined or simplified.</i>
   
-  Click here to see the <a target="_blank"> [Mock-up](https://xd.adobe.com/view/e869d8be-1df1-4c7d-bb71-228cf1b8181a-bd3a/specs/) </a>
+  Click here to see the <a target="_blank" href="https://xd.adobe.com/view/e869d8be-1df1-4c7d-bb71-228cf1b8181a-bd3a/specs/">Mock-up</a>
   
   Click here to see the [Live Demo](https://ambiance-sable.vercel.app/)
   
