@@ -21,7 +21,7 @@
   
   Click here to see the <a target="_blank" href="https://xd.adobe.com/view/e869d8be-1df1-4c7d-bb71-228cf1b8181a-bd3a/specs/">Mock-up</a>
   
-  Click here to see the [Live Demo](https://ambiance-sable.vercel.app/){:target="_blank" rel="noopener"}
+  Click here to see the [![Live Demo](https://ambiance-sable.vercel.app/){:target="_blank" rel="noopener"}]
   
   ![Project Screenshot](public/preview_whole.png)
 
