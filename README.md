@@ -19,9 +19,9 @@
 
   <i>A raw idea is complex but by having collaboration with us, the experts. it can be refined or simplified.</i>
   
-  Press `CTRL` + Click [Link](https://xd.adobe.com/view/e869d8be-1df1-4c7d-bb71-228cf1b8181a-bd3a/specs/) to see the Mock-up file.
+  Press `CTRL` + Click this [Link](https://xd.adobe.com/view/e869d8be-1df1-4c7d-bb71-228cf1b8181a-bd3a/specs/) to see the ***Mock-up file***.
   
-  Press `CTRL` + Click [Link](https://ambiance-sable.vercel.app/) to see the Live Demo.
+  Press `CTRL` + Click this [Link](https://ambiance-sable.vercel.app/) to see the ***Live Demo***.
   
   ![Project Screenshot](public/preview_whole.png)
 
