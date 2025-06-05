@@ -27,7 +27,7 @@ const Features = () => {
         </p>
       </section>
       <section className="mt-12 red">
-        <div className="font-alice blue">
+        <div className="font-alice">
           <Swiper
             slidesPerView={1}
             loop={true}
@@ -131,16 +131,10 @@ const Features = () => {
         </div>
         <div className="flex justify-center gap-12 mt-8">
           <div className="button-prev-slide">
-            <MoveLeft
-              className="hover:text-[#F7941D] transition-all w-8 h-8 md:w-[2.625rem] md:h-9"
-              sx={{ fontSize: 30 }}
-            />
+            <MoveLeft className="hover:text-[#F7941D] transition-all w-8 h-8 md:w-[2.625rem] md:h-9" />
           </div>
           <div className="button-next-slide">
-            <MoveRight
-              className="hover:text-[#F7941D] transition-all w-8 h-8 md:w-[2.625rem] md:h-9"
-              sx={{ fontSize: 30 }}
-            />
+            <MoveRight className="hover:text-[#F7941D] transition-all w-8 h-8 md:w-[2.625rem] md:h-9" />
           </div>
         </div>
       </section>
